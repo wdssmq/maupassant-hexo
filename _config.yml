@@ -140,18 +140,11 @@ info:
       message: RSS
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-    src: https://www.example1.com/favicon.ico
-    desc: XXX's Blog
-  - title: site-name2
-    url: http://www.example2.com/
-    src: https://www.example1.com/favicon.ico
-    desc: YYY's Blog
-  - title: site-name3
-    url: http://www.example3.com/
-    src: https://www.example3.com/favicon.ico
-    desc: ZZZ's Blog
+  - title: 沉冰浮水的博客
+    url: http://www.wdssmq.com/
+    src: https://www.wdssmq.com/favicon.ico
+    desc: 置百丈玄冰而崩裂，掷须臾池水而漂摇。
+
 
 timeline:
   - num: 1
