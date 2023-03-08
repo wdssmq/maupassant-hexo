@@ -64,8 +64,8 @@ self_search: false ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 microsoft_clarity: ## Your Microsoft Clarity tracking id, e.g. zg2ctuea9j
-fancybox: true ## If you want to use fancybox please set the value to true.
-show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
+fancybox: false ## If you want to use fancybox please set the value to true.
+show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
 busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
@@ -78,10 +78,10 @@ canvas_nest:
   zIndex: ## The z-index property of the background, e.g. "-1"
   count: ## Quantity of lines, e.g. "150"
 donate:
-  enable: false ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
-  github: ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
-  alipay_qr: ## Path of Alipay QRcode image, e.g. /img/AliPayQR.png
-  wechat_qr: ## Path of Wechat QRcode image, e.g. /img/WeChatQR.png
+  enable: true ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
+  github: https://github.com/wdssmq#%E4%BA%8C%E7%BB%B4%E7%A0%81 ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
+  alipay_qr: /img/qr-ali.png ## Path of Alipay QRcode image, e.g. /img/AliPayQR.png
+  wechat_qr: /img/qr-wx.png ## Path of Wechat QRcode image, e.g. /img/WeChatQR.png
   btc_qr: ## Path of Bitcoin QRcode image, e.g. /img/BTCQR.png
   btc_key: ## Bitcoin key, e.g. 1KuK5eK2BLsqpsFVXXSBG5wbSAwZVadt6L
   paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
