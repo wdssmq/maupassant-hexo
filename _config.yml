@@ -124,16 +124,16 @@ widgets: ## Seven widgets in sidebar provided: search, info, category, tag, rece
 
 info:
   avatar: /img/avatar.png
-  discription: To be a better man.
+  discription: 做最终做到的事，成为最终成为的人；
   outlinkitem:
     - name: twitter
-      outlink: https://twitter.com/username
+      outlink: https://twitter.com/wdssmq
       message: Twitter
     - name: envelope
-      outlink: mailto:admin@domain.com
+      outlink: mailto:wdssmq@qq.com
       message: Email
     - name: github
-      outlink: https://github.com/username
+      outlink: https://github.com/wdssmq
       message: Github
     - name: rss
       outlink: /atom.xml
