@@ -1,5 +1,6 @@
 if page.tags
   .tags
     for tag in page.tags.toArray()
-      a(href=url_for(config.tag_dir) + '/' + tag.name + '/')
-        i.fa.fa-tag= tag.name
+      - const tagName = tag.name.replace('_', '-')
+      a(href=url_for(config.tag_dir) + '/' + tagName + '/')
+        i.fa.fa-tag= tagName
